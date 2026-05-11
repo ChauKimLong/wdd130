@@ -1,0 +1,45 @@
+body {
+    width: 1800px;
+}
+
+header {
+    width: 800px;
+    margin: 0px 500px;
+}
+
+header p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    width: 800px;
+    margin: 0px 500px;
+}
+
+main h1,
+main picture {
+    text-align: center;
+    display: block;
+}
+
+section {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+footer {
+    width: 800px;
+    margin: 0px 500px;
+}
+
+footer p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.75em;
+}
