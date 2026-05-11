@@ -1,5 +1,21 @@
+nav {
+    background-color: #07F3FF;
+    padding: 10px;
+}
+
+nav a {
+    color: blue;
+    padding: 2px;
+    display: block;
+}
+
 main {
     max-width: 840px;
+}
+
+main h1 {
+    background-color: lightgray;
+    color: black;
 }
 
 aside {
@@ -20,6 +36,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: 2px solid black;
+    padding: auto;
+    box-shadow: 2px 5px gray;
 }
 
 p {
