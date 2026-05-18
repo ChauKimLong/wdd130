@@ -76,7 +76,12 @@ article {
     height: auto;
 }
 
-article {
+.hero h1 {
+    position: absolute;
+    color: var(--secondary-color)
+}
+
+.hero article {
     position: absolute;
     height: auto;
     bottom: 20px;
