@@ -4,25 +4,45 @@
     box-sizing: border-box;
 }
 
+header {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
-    background-color: #07F3FF;
-    padding: 10px;
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: blue;
-    padding: 2px;
     display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    /*% shorthand for white %*/
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 main {
     max-width: 840px;
     position: relative;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 main h1 {
     background-color: lightgray;
     color: black;
+    border-bottom: 2px solid steelblue;
 }
 
 main img {
@@ -43,6 +63,8 @@ aside {
     color: #333;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -64,6 +86,8 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 /* Class Selectors */
