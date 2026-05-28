@@ -165,13 +165,12 @@ header nav ul li a {
     margin: 20px 0px;
 }
 
-.adventure-section img {
-    width: 90%;
-    padding: auto;
+.adventure-section figure {
+    text-align: center;
 }
 
-.adventure-section figcaption {
-    justify-self: center;
+.adventure-section figure img {
+    width: 90%;
 }
 
 /* ------------------------------------------------------------------ FOOTER  ----------------------------------------------*/
