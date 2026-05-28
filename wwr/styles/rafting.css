@@ -152,6 +152,10 @@ header nav ul li a {
     justify-self: center;
 }
 
+.history-section-middle-part img {
+    width: 100%;
+}
+
 .adventure-section {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -161,6 +165,10 @@ header nav ul li a {
 .adventure-section h2 {
     grid-column: 1 / 6;
     justify-self: center;
+}
+
+.adventure-section img {
+    width: 100%;
 }
 
 /* ------------------------------------------------------------------ FOOTER  ----------------------------------------------*/
@@ -180,4 +188,5 @@ footer nav {
 
 .socialmedia img {
     margin: 0px 10px;
+    width: 30px;
 }
