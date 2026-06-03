@@ -1,0 +1,43 @@
+body {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1 {
+    color: blue;
+    grid-column: 2 / 4;
+}
+
+form {
+    background-color: lightgray;
+    padding: 10px 20px 20px 20px;
+}
+
+form b {
+    color: blue;
+}
+
+form input {
+    width: 100%;
+    height: 20px;
+}
+
+form textarea {
+    width: 100%;
+    height: 60px;
+}
+
+form select {
+    width: 100%;
+    height: 30px;
+}
+
+form button {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    font-size: large;
+}
