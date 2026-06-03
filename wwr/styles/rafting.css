@@ -10,12 +10,9 @@
     /*--primary-color: #055a053;
      forest green */
     --primary-color: #000;
-    --secondary-color: #f4a261;
-    /* warm sand */
-    --accent1-color: #264653;
-    /* dark slate blue */
-    --accent2-color: #e9c46a;
-    /* Light golden yellow */
+    --secondary-color: #f4a261; /* warm sand */
+    --accent1-color: #264653; /* dark slate blue */
+    --accent2-color: #e9c46a; /* Light golden yellow */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -37,19 +34,6 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-}
-
-h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    /*background-color: var(--accent1-color);*/
-    background-color: black;
-    color: var(--secondary-color);
-    /* white text make sure there is enough contrast with the background-color */
 }
 
 nav,
@@ -94,21 +78,28 @@ header nav ul li a {
 }
 
 /* ------------------------------------------------------------------ MAIN  ----------------------------------------------*/
-.hero {
+.banner {
     position: relative;
 }
 
-.hero img {
+.banner img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.hero h1 {
+.banner h1 {
     position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7; /*background-color: var(--accent1-color);*/
+    background-color: black;
+    color: var(--secondary-color); /* white text make sure there is enough contrast with the background-color */
 }
 
-.hero article {
+article {
     position: absolute;
     height: auto;
     bottom: 20px;
@@ -118,14 +109,14 @@ header nav ul li a {
     background-color: rgb(38 70 83 / 70%);
 }
 
-.hero article img {
+.banner article img {
     float: right;
     width: 125px;
     margin-left: 16px;
     margin-bottom: 8px;
 }
 
-.hero article p {
+.banner article p {
     color: white;
     background-color: transparent;
     opacity: 1;
@@ -172,6 +163,12 @@ header nav ul li a {
 .adventure-section figure img {
     width: 90%;
 }
+
+/* ----------------- MAIN - Contact Us -----------------------*/
+.contact-us-title {
+    text-align: center;
+}
+
 
 /* ------------------------------------------------------------------ FOOTER  ----------------------------------------------*/
 footer {
