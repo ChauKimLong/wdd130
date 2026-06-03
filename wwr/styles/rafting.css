@@ -78,6 +78,10 @@ header nav ul li a {
 }
 
 /* ------------------------------------------------------------------ MAIN  ----------------------------------------------*/
+main {
+    display: grid;
+}
+
 .hero {
     position: relative;
 }
@@ -167,6 +171,8 @@ header nav ul li a {
 /* ----------------- MAIN - Contact Us -----------------------*/
 .contact-us-title {
     text-align: center;
+    float: left;
+    width: 100%;
 }
 
 
