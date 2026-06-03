@@ -35,21 +35,25 @@
             <span>info@whitewolfrafting.com</span><br>
         </div>
         <div class="contact-us-main-part">
-            <div>
+            <div id="contact-us-main-part-left">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.9858851972035!2d-115.362697!3d51.090267999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5370c57df3fbb7e3%3A0xd516a34d1226de8e!2sWhite%20Wolf%20Rafting!5e0!3m2!1sen!2s!4v1780492622899!5m2!1sen!2s"
                   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div>
+            <div id="contact-us-main-part-right">
                 <form>
-                    <label for="user-name">Name: </label><input type="text" placeholder="Your name" id="user-name" name="user-name"><br>
-                    <label for="user-email">Email: </label><input type="text" placeholder="Your email" id="user-email" name="user-email"><br>
+                    <label for="user-name">Name: </label><input type="text" placeholder="Your name" id="user-name" name="user-name"><br><br>
+                    <label for="user-email">Email: </label><input type="text" placeholder="Your email" id="user-email" name="user-email"><br><br>
                     <label>Message Purpose: </label><br>
                     <input type="radio" name="message-purpose" value="general inquiry" id="general-inquiry" checked><label for="general-inquiry">General Inquiry</label><br>
                     <input type="radio" name="message-purpose" value="reservation question" id="reservation-question"><label for="reservation-question">Reservation Question</label><br>
                     <input type="radio" name="message-purpose" value="website suggestion" id="website-suggestion"><label for="website-suggestion">Website Suggestion</label><br>
+                    <br>
                     <label for="user-message">Message:</label><br>
-                    <textarea id="user-message" name="user-email"></textarea><br>
-                    <input type="checkbox" value="subscribe" id="subscribe-checkbox" name="user-subscribe"><label for="subscribe-checkbox">Please Subscribe me to the monthyly newsletter</label><br>
+                    <textarea id="user-message" name="user-email" placeholder="Type here"></textarea><br>
+                    <br>
+                    <input type="checkbox" value="subscribe" id="subscribe-checkbox" name="user-subscribe" checked>
+                    <label for="subscribe-checkbox">Please Subscribe me to the monthyly newsletter</label><br>
+                    <br>
                     <button type="submit" value="Submit">Get in Touch!</button>
                 </form>
             </div>
