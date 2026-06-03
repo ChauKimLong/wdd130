@@ -78,17 +78,17 @@ header nav ul li a {
 }
 
 /* ------------------------------------------------------------------ MAIN  ----------------------------------------------*/
-.banner {
+.hero {
     position: relative;
 }
 
-.banner img {
+.hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.banner h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -109,14 +109,14 @@ article {
     background-color: rgb(38 70 83 / 70%);
 }
 
-.banner article img {
+.hero article img {
     float: right;
     width: 125px;
     margin-left: 16px;
     margin-bottom: 8px;
 }
 
-.banner article p {
+.hero article p {
     color: white;
     background-color: transparent;
     opacity: 1;
