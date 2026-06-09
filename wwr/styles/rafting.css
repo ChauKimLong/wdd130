@@ -283,12 +283,16 @@ form {
     color: white;
 }
 
-#main-homepage-article button {
+#main-homepage-article a {
+    display: inline-block;
     color: black;
     height: 30px;
+    line-height: 30px;
     width: 100px;
     border-radius: 5px;
     background-color: var(--secondary-color);
+    text-decoration: none;
+    text-align: center;
 }
 
 .main-homepage-section-1 {
@@ -324,7 +328,7 @@ form {
 .main-homepage-section-2 form {
     width: 33%;
     position: absolute;
-    right: 400px;
+    right: 300px;
     top: 200px;
     padding: 30px;
     background-color: #D8D8D8;
