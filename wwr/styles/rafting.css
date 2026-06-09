@@ -329,13 +329,13 @@ form {
     width: 33%;
     position: absolute;
     right: 300px;
-    top: 200px;
+    top: 300px;
     padding: 30px;
     background-color: #D8D8D8;
 }
 
 .main-homepage-section-2 form button {
-    width: 100%;
+    width: 80%;
     height: 30px;
     background-color: #e9c46a;
 }
