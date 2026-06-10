@@ -304,11 +304,11 @@ form {
     height: 200px;
 }
 
-.main-homepage-section-1 figure {
+.main-homepage-section-1 article {
     text-align: center;
 }
 
-.main-homepage-section-1 figure img {
+.main-homepage-section-1 article img {
     width: 50%;
     border: 5px solid black;
     box-shadow: 0 5px 15px rgb(0 0 0 / 30%);
