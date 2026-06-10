@@ -414,9 +414,10 @@ form {
     box-shadow: 0 5px 15px rgb(0 0 0 / 30%);
 }
 
-.trips-description-section figcaption {
+.trips-description-section article h3 {
     font-weight: 700;
     margin-top: 10px;
+    color: black;
 }
 
 .trips-description-section article p {
