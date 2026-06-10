@@ -26,53 +26,79 @@
 
 
     <!-------------------------------------------------------MAIN---------------------------------------------------------->
-    <main>
-        <div class="contact-us-information">
-            <h1>White Wolf Rafting</h1>
-            <span>109-829 10th Street</span><br>
-            <span>Canmore, AB T1W 0C3</span><br>
-            <span>+1 403-675-0632</span><br>
-            <span>info@whitewolfrafting.com</span><br>
-        </div>
-        <div class="contact-us-main-part">
-            <div id="contact-us-main-part-left">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.9858851972035!2d-115.362697!3d51.090267999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5370c57df3fbb7e3%3A0xd516a34d1226de8e!2sWhite%20Wolf%20Rafting!5e0!3m2!1sen!2s!4v1780492622899!5m2!1sen!2s"
-                  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <main id="main-trips-page">
+        <section class="trips-introduction-section">
+            <div class="trips-introduction-left">
+                <h1>Choose Your Adventure</h1>
+                <p>White Wolf Rafting offers trips for families, first-time rafters, and adventure seekers. Whether you want a peaceful river float or a powerful white water
+                    experience, our guides are ready to help you enjoy the Canadian Rockies safely.</p>
+                <a href="contact.html">Contact Us</a>
             </div>
-            <div id="contact-us-main-part-right">
-                <form>
-                    <label for="user-name">Name: </label><input type="text" placeholder="Your name" id="user-name" name="user-name"><br><br>
-                    <label for="user-email">Email: </label><input type="text" placeholder="Your email" id="user-email" name="user-email"><br><br>
-                    <label>Message Purpose: </label><br>
-                    <input type="radio" name="message-purpose" value="general inquiry" id="general-inquiry" checked><label for="general-inquiry">General Inquiry</label><br>
-                    <input type="radio" name="message-purpose" value="reservation question" id="reservation-question"><label for="reservation-question">Reservation Question</label><br>
-                    <input type="radio" name="message-purpose" value="website suggestion" id="website-suggestion"><label for="website-suggestion">Website Suggestion</label><br>
-                    <br>
-                    <label for="user-message">Message:</label><br>
-                    <textarea id="user-message" name="user-email" placeholder="Type here"></textarea><br>
-                    <br>
-                    <input type="checkbox" value="subscribe" id="subscribe-checkbox" name="user-subscribe" checked>
-                    <label for="subscribe-checkbox">Please Subscribe me to the monthyly newsletter</label><br>
-                    <br>
-                    <button type="submit" value="Submit">Get in Touch!</button>
-                </form>
+            <div class="trips-introduction-right">
+                <img src="images/trips-main-image.webp" alt="people rafting on a mountain river">
             </div>
-        </div>
-
-        <section class="contact-us-staffs">
-            <h2>We Are Here to Serve You</h2>
+        </section>
+    
+    
+        <section class="trips-description-section">
+            <h2>Our Popular Trips</h2>
             <figure>
-                <img src="images/staff-contact-us-jereme.png" alt="picture of Jereme">
-                <figcaption>Jereme</figcaption>
+                <img src="images/trips-family-float.webp" alt="family enjoying a calm rafting trip">
+                <figcaption>Family River Float</figcaption>
+                <p>This trip is great for families and beginners. The water is calm, the views are beautiful, and the pace is comfortable for guests who want a relaxing outdoor
+                    experience.</p>
             </figure>
+    
             <figure>
-                <img src="images/staff-contact-us-caitlyn.png" alt="picture of Caitlyn">
-                <figcaption>Caitlyn</figcaption>
+                <img src="images/trips-whitewater.webp" alt="rafters going through white water rapids">
+                <figcaption>White Water Rush</figcaption>
+                <p>This trip is designed for guests who want excitement. You will ride through fast-moving rapids with trained guides who focus on both safety and adventure.</p>
             </figure>
+    
             <figure>
-                <img src="images/staff-contact-us-jodi-2.png" alt="picture of Jodi">
-                <figcaption>Jodi</figcaption>
+                <img src="images/trips-scenic.webp" alt="scenic river surrounded by mountains and trees">
+                <figcaption>Scenic Canyon Run</figcaption>
+                <p>This trip combines adventure and sightseeing. Guests can enjoy mountain views, fresh air, and a balanced rafting route with both calm water and light rapids.</p>
             </figure>
+        </section>
+    
+    
+        <section class="trips-table-section">
+            <h2>Trip Summary</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trip Name</th>
+                        <th>Difficulty</th>
+                        <th>Time</th>
+                        <th>Best For</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Family River Float</td>
+                        <td>Easy</td>
+                        <td>2 Hours</td>
+                        <td>Families and beginners</td>
+                        <td>$65</td>
+                    </tr>
+                    <tr>
+                        <td>White Water Rush</td>
+                        <td>Advanced</td>
+                        <td>3 Hours</td>
+                        <td>Adventure seekers</td>
+                        <td>$95</td>
+                    </tr>
+                    <tr>
+                        <td>Scenic Canyon Run</td>
+                        <td>Moderate</td>
+                        <td>Half Day</td>
+                        <td>Nature lovers</td>
+                        <td>$85</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
 
